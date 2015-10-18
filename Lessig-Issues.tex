@@ -1,0 +1,61 @@
+% !TEX TS-program = latexmkx
+% !TEX encoding = UTF-8 Unicode
+% !TeX  spellcheck = en_GB
+% =============================================================
+\documentclass[%
+ 11pt,
+ a4paper,
+ extrafontsizes,
+% draft,
+    % oneside, % <<========<<
+    twoside, % <<========<<
+ ]{memoir}
+\usepackage{ebgaramond}
+\usepackage{cclicenses}
+\usepackage[pdfdisplaydoctitle]{hyperref}
+\usepackage{hyperxmp}
+\hypersetup{
+%	hidelinks,
+	colorlinks,
+	pdftitle={Lessig on the Issues},
+	pdfcreator=XeLaTeX,
+    }
+\makeatletter
+  \AtEndDocument{\hyxmp@find@metadata\hyxmp@embed@packet}
+\makeatother
+\chapterstyle{bringhurst}
+\setsecnumdepth{none}
+\settocdepth{subsection}
+% =============================================================
+\begin{document}
+% =============================================================
+\frontmatter
+%\input{Cover}
+This is work-in-progress.
+
+\ccby{} Brent Longborough, 2015. Derived from \textit{Lessig on the Issues}
+(\url{https://medium.com/lessig-on-the-issues})
+
+% =============================================================
+\tableofcontents*
+% =============================================================
+\mainmatter
+\pagestyle{headings}
+\input{Sections/FirstReform.tex}
+\chapter{The Other Issues}
+\input{Sections/Economy.tex}
+\input{Sections/TaxReform.tex}
+\input{Sections/SocFinSecurity.tex}
+\input{Sections/NatsecFopo.tex}
+\input{Sections/CrimJust.tex}
+\input{Sections/HealthCare.tex}
+\input{Sections/Equality.tex}
+\input{Sections/Internet.tex}
+\input{Sections/Innovation.tex}
+\input{Sections/SupportWork.tex}
+\input{Sections/WaronDrugs.tex}
+\input{Sections/Immigration.tex}
+\input{Sections/Education.tex}
+\input{Sections/Surveillance.tex}
+\input{Sections/Environment.tex}
+\end{document}
