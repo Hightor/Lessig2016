@@ -1,6 +1,6 @@
-\# Lessig 2016
+# Lessig 2016
 
-\#\# Typesetting Lessig on *The Issues*
+## Typesetting Lessig on *The Issues*
 
 Being English, and living in Wales, 
 I'm a bit remote to make any active contribution
